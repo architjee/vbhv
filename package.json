@@ -5,7 +5,11 @@
 	"author": "Steve Simkins",
 	"license": "MIT",
 	"homepage": "https://github.com/stevedylandev/bhvr",
-	"workspaces": ["./server", "./client", "./shared"],
+	"workspaces": [
+		"./server",
+		"./client",
+		"./shared"
+	],
 	"scripts": {
 		"dev:client": "cd client && bun run dev",
 		"dev:server": "cd server && bun run dev",
@@ -17,7 +21,13 @@
 		"build": "bun run build:shared && bun run build:server && bun run build:client",
 		"postinstall": "bun run build:shared && bun run build:server"
 	},
-	"keywords": ["bun", "hono", "react", "vite", "monorepo"],
+	"keywords": [
+		"bun",
+		"hono",
+		"vue",
+		"vite",
+		"monorepo"
+	],
 	"devDependencies": {
 		"bun-types": "latest",
 		"concurrently": "^9.1.2"
