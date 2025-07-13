@@ -1,10 +1,10 @@
 {
-	"name": "bhvr",
+	"name": "vbhv",
 	"version": "0.3.1",
-	"description": "A monorepo template built with Bun, Hono, Vite, and React",
+	"description": "A monorepo template built with Bun, Hono, Vite, and Vue",
 	"author": "Steve Simkins",
 	"license": "MIT",
-	"homepage": "https://github.com/stevedylandev/bhvr",
+	"homepage": "https://github.com/architjee/vbhv",
 	"workspaces": [
 		"./server",
 		"./client",

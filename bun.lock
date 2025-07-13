@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "bhvr",
+      "name": "vbhv",
       "devDependencies": {
         "bun-types": "latest",
         "concurrently": "^9.1.2",
