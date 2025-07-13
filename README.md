@@ -1,6 +1,6 @@
 # vbhv 🦫
 
-![cover](https://cdn.stevedylan.dev/ipfs/bafybeievx27ar5qfqyqyud7kemnb5n2p4rzt2matogi6qttwkpxonqhra4)
+![cover](https://github.com/user-attachments/assets/f252bb4a-1205-4e71-8a6a-b08586da4605)
 
 A full-stack TypeScript monorepo starter with shared types, using Bun, Hono, Vite, and Vue
 
