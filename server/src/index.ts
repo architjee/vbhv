@@ -1,7 +1,6 @@
 import { Hono } from 'hono'
 import { cors } from 'hono/cors'
 import type { ApiResponse } from 'shared/dist'
-
 const app = new Hono()
 
 app.use(cors())
