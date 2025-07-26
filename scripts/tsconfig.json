@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../.cache/ts-scripts",
+    "moduleResolution": "node",
+    "noEmit": true
+  },
+  "include": ["**/*.ts", "**/*.js"]
+}

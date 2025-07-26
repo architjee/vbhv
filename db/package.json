@@ -1,0 +1,34 @@
+{
+  "name": "db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./schema": "./schema/index.ts",
+    "./schema/*": "./schema/*"
+  },
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "migrate:remote": "drizzle-kit migrate",
+    "push": "drizzle-kit push",
+    "push:remote": "drizzle-kit push",
+    "studio": "drizzle-kit studio",
+    "studio:remote": "drizzle-kit studio",
+    "introspect": "drizzle-kit introspect",
+    "up": "drizzle-kit up",
+    "check": "drizzle-kit check",
+    "drop": "drizzle-kit drop",
+    "export": "drizzle-kit export"
+  },
+  "peerDependencies": {
+    "drizzle-orm": "^0.44.3"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.19",
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.3",
+    "typescript": "~5.8.3"
+  }
+}
