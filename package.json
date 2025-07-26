@@ -59,7 +59,8 @@
     "vite": "~7.0.5",
     "vitepress": "^1.6.3",
     "vitest": "~3.2.4",
-    "wrangler": "^4.25.0"
+    "wrangler": "^4.25.0",
+    "@antfu/eslint-config": "^5.0.0"
   },
   "prettier": {
     "printWidth": 80,
